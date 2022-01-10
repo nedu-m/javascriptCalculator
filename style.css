@@ -49,16 +49,16 @@
 }
 
 .operator {
-  background-color: rgb(223, 119, 22);
+  background-color: #ee7f08;
   color: #fff;
 }
 
-.operator:active {
-  background-color: rgb(240, 132, 32);
+.grid-item.operator:active {
+  background-color: #f06616;
 }
 
 .operator:hover {
-  background-color: rgb(228, 144, 66);
+  background-color: rgb(240, 143, 52);
   color: #fff;
 }
 

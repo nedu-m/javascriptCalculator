@@ -1,0 +1,67 @@
+*,
+*body,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  background-color: white;
+  justify-content: center;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(173, 172, 172);
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  background-color: rgb(199, 196, 196);
+}
+.grid-item:active {
+  background-color: rgb(97, 96, 96);
+}
+
+.output {
+  grid-column: span 4;
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding: 20px 5px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.clear {
+  grid-column: span 2;
+}
+
+.operator {
+  background-color: rgb(223, 119, 22);
+  color: #fff;
+}
+
+.operator:active {
+  background-color: rgb(240, 132, 32);
+}
+
+.operator:hover {
+  background-color: rgb(228, 144, 66);
+  color: #fff;
+}
+
+.zero {
+  grid-column: span 3;
+}
